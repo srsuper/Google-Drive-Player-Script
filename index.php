@@ -38,7 +38,7 @@
 
 		<br />
 		<strong>JSON: </strong><a href="<?php echo base_url.'json.php?id='.$id;?>"><?php echo base_url.'json.php?id='.$id;?></a>
-		<p> https://drivesttermmm.herokuapp.com//?url=https://drive.google.com/file/d/[ID]/view </p>
+		<p> https://drivesttermmm.herokuapp.com/?url=https://drive.google.com/file/d/[ID]/view </p>
 		<div style="background-color: #e9ecef;">
 			<pre><code> <?php echo json_encode($results, JSON_PRETTY_PRINT);?>  </code></pre>
 		</div>
